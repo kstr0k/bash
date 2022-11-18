@@ -577,7 +577,7 @@ printstr (fmt, string, len, fieldwidth, precision)
 #else
   if (string == 0 || len == 0)
 #endif
-    return 0;
+    return;
 
 #if 0
   s = fmt;
